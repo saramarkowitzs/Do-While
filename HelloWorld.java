@@ -10,15 +10,18 @@ public class HelloWorld
         int i = 0 ;
         while (i < 15) {
             System.out.println("i is " + i + " but is less than 15");
-            i = i + 1;
+            i++;
         }
-        int k=3;
+        int k = 8;
         while (k > 5) {
-            System.out.println("k is " + i + " but is greater than 5");
+            System.out.println("k is " + k + " but is greater than 5");
+            k = k - 1;
         }
         
         while ( a < 10 && b <=20) {
-            System.out.println("idk");
+            System.out.println(" a is " + a + " but less than 10 " + " b is " + b + " but greater or equal to 20 ");
+            a++;
+            b++;
         }
     }
     
